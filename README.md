@@ -1,9 +1,9 @@
 # 1. Using the docker containers
-Step 1: Clone this repo
+Step 1: Clone this repo.
 
-Step 2: Change the `.env.example` file to your environment
+Step 2: You can either create a `.env` file or change the `.env.example` file to `.env` for your environment.
 
-Step 3: Run `docker-compose up --build`
+Step 3: Run `docker-compose up --build`.
 
 ## URL's (local version)
 
