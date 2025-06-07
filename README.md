@@ -12,9 +12,11 @@ Step 3: Run `docker-compose up --build`.
 | [http://localhost:8080](http://localhost:8080)                                     | (React) Application            |
 
 # 2. Run Migrations - Seed Database
-Run the following command to seed the database:
+Run the following command for the migrations:
 
 `docker-compose exec backend npx sequelize-cli db:migrate`
+
+Run the following command to seed the database:
 
 `docker-compose exec backend npx sequelize-cli db:seed:all`
 
